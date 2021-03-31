@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Sign in with valid credentials successfuly and sign out successfuly",
+        "description": "",
+        "id": "login1;sign-in-with-valid-credentials-successfuly-and-sign-out-successfuly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6322847100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be at online shopping site",
+            "match": {
+              "location": "SignInTestUsingDataTable.user_should_be_at_online_shopping_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18925954500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user sign in with valid credentials and sign out from account",
+            "match": {
+              "location": "SignInTestUsingDataTable.user_sign_in_with_valid_credentials_and_sign_out_from_account(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "emailOrPhoneNo",
+                  "passWord",
+                  "SignInName"
+                ]
+              },
+              {
+                "cells": [
+                  "7259318108",
+                  "a7259318108a",
+                  "Hello, Sujith"
+                ]
+              },
+              {
+                "cells": [
+                  "7259318108",
+                  "a7259318108a",
+                  "Hello, Sujith"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4575100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should get logout successfully and login page should display successfuly",
+            "match": {
+              "location": "SignInTestUsingDataTable.user_should_get_logout_successfully_and_login_page_should_display_successfuly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login1",
+    "description": "",
+    "id": "login1",
+    "keyword": "Feature",
+    "uri": "D:/Work_Space_3/CucumberWithTestNG/src/features/login1.feature",
+    "tags": []
+  }
+]
